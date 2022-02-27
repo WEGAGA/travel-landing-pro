@@ -68,3 +68,58 @@ header {
    font-weight: normal;
 }
 
+.header__form {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+        
+}
+
+.header__form input {
+    background: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #ffffff99;
+    margin-right: 60px;
+
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-family: "Lato", sans-serif;
+    width: 250px;
+    caret-color: white;
+    color: white;
+}
+
+.header__form input::placeholder {
+    color: #fff;
+}
+
+.header__form > .input__wrapper::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+
+}
+
+.header__form > .input__wrapper {
+    position: relative;
+}
+
+.header__form > button {
+    padding: 20px 30px;
+    background-color: dodgerblue;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    outline: 0;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+
+}
