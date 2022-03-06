@@ -1,0 +1,51 @@
+.benefits {
+    width: 90%;
+    padding: 100px;
+    font-family: "lato", sans-serif;
+    background-color: #fefefe;
+    
+    margin: -100px auto 0;
+
+    box-shadow: 0 0 10px #0005;
+
+    font-size: 35px;
+    font-weight: 300;
+
+    color: #102746;
+}
+
+.benefits-items {
+    display: flex;
+    align-items: center;
+}
+
+.benefits-item {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+
+    gap: 25px;
+
+}
+
+.benefits-item > img {
+    width: 50px;
+    height: 50px;
+}
+
+.benefits-item > label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.benefits-item > p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.benefits-item > a {
+    font-size: 16px;
+    color:aqua ;
+    text-decoration: none;
+    text-transform: uppercase;
+}
