@@ -1,0 +1,57 @@
+.top-places {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.top-places > h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    color: #102746;
+    font-weight: 500;
+
+
+}
+
+.top-places > hr {
+    width: 200px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.top-places > .top-places-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.top-place-item {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    max-width: 28%;
+
+    font-family: 'Lati', sans-serif;
+}
+
+.top-place-item > img {
+    width: 100%;
+
+}
+
+.top-place-item > label {
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.top-place-item > button {
+    width: 115px;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    background: #006dfe;
+    color: #fefefe;
+    text-transform: uppercase;
+    font-size: 16px;
+}
